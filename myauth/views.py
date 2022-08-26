@@ -17,3 +17,7 @@ def 登录(request):
             return redirect('myauth:主页')
     else:
         return render(request, 'myauth/login.html')
+
+def 登出(request):
+    logout(request)
+    return redirect("myauth:主页")
