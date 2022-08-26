@@ -1,0 +1,64 @@
+h1 {
+    border-bottom: #71246b solid;
+    font-size: 25px;
+}
+
+.header1 {
+    height: 60px;
+    padding-left: 90px;
+    margin-top: 50px;
+}
+
+.header1 div {
+    text-indent: 1em;
+    width: 300px;
+}
+
+.header2 {
+    height: 60px;
+    padding-left: 90px;
+    margin-top: 50px;
+}
+
+.header2 div {
+    text-indent: 1em;
+    width: 330px;
+}
+
+.header3 {
+    height: 60px;
+    padding-left: 90px;
+    margin-top: 50px;
+}
+
+.header3 div {
+    text-indent: 1em;
+    width: 455px;
+}
+
+.header4 {
+    height: 60px;
+    padding-left: 90px;
+    margin-top: 50px;
+}
+
+.header4 div {
+    text-indent: 1em;
+    width: 265px;
+}
+
+nav div p {
+    font-size: 17px;
+    text-indent: 6em;
+}
+
+nav div img {
+    position: relative;
+    left: 20%;
+}
+
+nav div img {
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+}

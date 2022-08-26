@@ -1,0 +1,82 @@
+.tab {
+    margin-top: .7rem;
+    margin-bottom: .6667rem;
+}
+
+.tab_list {
+    width: 8rem;
+    height: 1rem;
+    border-bottom: .08rem #71246b solid;
+    margin: 0 auto;
+    padding: 0rem;
+}
+
+.tab_list li {
+    display: block;
+    float: left;
+    list-style: none;
+    font-size: .4rem;
+    height: 1rem;
+    width: 4rem;
+    line-height: 1rem;
+    text-align: center;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.tab_list .current {
+    background-color: #71246b;
+    color: #fff;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.item {
+    display: none;
+}
+
+h1 {
+    border-bottom: .06rem #71246b solid;
+}
+
+.header1 {
+    height: .8rem;
+    margin-top: .6667rem;
+    font-size: .1867rem;
+}
+
+.header1 div {
+    text-indent: .2rem;
+    width: 2rem;
+}
+
+.header2 {
+    font-size: .1867rem;
+    height: .8rem;
+    margin-top: .6667rem;
+}
+
+.header2 div {
+    text-indent: .2rem;
+    width: 2.5rem;
+}
+
+.header3 {
+    font-size: .1867rem;
+    height: .8rem;
+    margin-top: .6667rem;
+}
+
+.header3 div {
+    text-indent: .2rem;
+    width: 3rem;
+}
+
+.item p {
+    line-height: .39rem;
+    text-indent: .5rem;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: .1rem;
+    font-size: .3rem;
+}

@@ -1,0 +1,140 @@
+.header1 {
+    height: .6rem;
+    margin-top: .5333rem;
+}
+
+.header1 div {
+    height: .8rem;
+    width: 3rem;
+    border-bottom: .04rem #71246b solid;
+    margin-top: 1rem;
+}
+
+
+.header1 h2 {
+    text-indent: 1.2rem;
+    width: 4rem;
+    font-weight: 600;
+    color: #71246b;
+    font-size: .4667rem;
+    margin: 0;
+}
+
+.focus {
+    position: relative;
+    width: 9.3333rem;
+    height: 17rem;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.focus ol {
+    position: absolute;
+    bottom: .4rem;
+    right: .5rem;
+    margin: 0;
+}
+
+.focus ol li {
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    background-color: #fff;
+    list-style: none;
+    border-radius: .04rem;
+    transition: all .1s;
+}
+
+.focus ol li.current {
+    width: .4rem;
+    background-color: #71246b;
+}
+
+.focus ul {
+    width: 600%;
+    overflow: hidden;
+    padding: 0rem;
+    margin-left: -100%;
+    margin-top: 0.5rem;
+}
+
+.focus ul li {
+    list-style: none;
+    float: left;
+    width: 16.66666%;
+}
+
+.focus ul li img {
+    width: 100%;
+}
+
+.history {
+    width: 90%;
+    margin: .4rem auto;
+    height: 7.9rem;
+    border-radius: .1333rem;
+    background-color: rgb(102, 102, 102, 0.4);
+}
+
+.history ul {
+    margin: 0rem;
+    padding-top: .2rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+}
+
+.history ul li {
+    font-size: .3667rem;
+    list-style: none;
+    margin: .18rem 0;
+}
+
+.focus1 {
+    position: relative;
+    width: 9.3333rem;
+    height: 8.3rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.focus1 ol {
+    padding: 0rem;
+    position: absolute;
+    margin: 0;
+    right: 0rem;
+    bottom: .1rem
+}
+
+.focus1 ol li {
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    background-color: #fff;
+    list-style: none;
+    border-radius: .04rem;
+    transition: all .1s;
+}
+
+.focus1 ol li.current1 {
+    width: .4rem;
+    background-color: #71246b;
+}
+
+.focus1 ul {
+    width: 600%;
+    overflow: hidden;
+    padding: 0rem;
+    margin-left: -100%;
+    margin-top: 0.5rem;
+}
+
+.focus1 ul li {
+    list-style: none;
+    float: left;
+    width: 16.66666%;
+}
+
+.focus1 ul li img {
+    width: 100%;
+}

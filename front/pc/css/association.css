@@ -1,0 +1,82 @@
+.tab {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.tab_list {
+    height: 50px;
+    border-bottom: #71246b solid;
+}
+
+.tab_list li {
+    font-size: 25px;
+    height: 50px;
+    width: 700px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab_list .current {
+    background-color: #71246b;
+    color: #fff;
+}
+
+.item {
+    display: none;
+}
+
+h1 {
+    border-bottom: #71246b solid;
+}
+
+.header1 {
+    height: 60px;
+    padding-left: 90px;
+    margin-top: 50px;
+}
+
+.header1 div {
+    text-indent: 1em;
+    width: 125px;
+}
+
+.header2 {
+    height: 60px;
+    padding-left: 80px;
+    margin-top: 50px;
+}
+
+.header2 div {
+    text-indent: 1em;
+    width: 145px;
+}
+
+.header3 {
+    height: 60px;
+    padding-left: 70px;
+    margin-top: 50px;
+}
+
+.header3 div {
+    text-indent: 1em;
+    width: 170px;
+}
+
+.item p {
+    text-indent: 2em;
+    padding: 0 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.item img {
+    width: 45%;
+    margin-left: 30px;
+}
+
+.item:nth-child(2) {
+    margin-left: 60px;
+}

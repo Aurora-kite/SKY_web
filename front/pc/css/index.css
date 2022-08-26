@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?s5d0sn');
+    src: url('fonts/icomoon.eot?s5d0sn#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?s5d0sn') format('truetype'),
+        url('fonts/icomoon.woff?s5d0sn') format('woff'),
+        url('fonts/icomoon.svg?s5d0sn#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.header1 {
+    height: 60px;
+    padding-left: 90px;
+    margin-top: 50px;
+
+}
+
+.header2 {
+
+    height: 40px;
+    padding-left: 90px;
+    margin-top: 80px;
+    margin-bottom: -40px;
+
+}
+
+.header3 {
+
+    height: 40px;
+    padding-left: 90px;
+    margin-top: 80px;
+    margin-bottom: -40px;
+}
+
+.header1 div {
+    text-indent: 1em;
+    width: 125px;
+}
+
+.header2 div {
+    text-indent: 1em;
+    width: 125px;
+}
+
+
+h2 {
+    font-size: .2rem;
+    border-bottom: #71246b solid;
+}
+
+.introduce {
+    width: 1200px;
+    height: 450px;
+    margin: 0, auto;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.introduce li {
+    width: 240px;
+    height: 450px;
+    float: left;
+    border-left: 3px rgb(230, 227, 227) solid;
+    position: relative;
+    transition: all .5s;
+}
+
+.introduce li img {
+    height: 450px;
+}
+
+.introduce:hover li {
+    width: 100px;
+}
+
+.introduce li:hover {
+    width: 800px;
+}
+
+.time {
+    margin-top: 30px;
+    height: 250px;
+
+}
+
+.time div {
+    position: absolute;
+    height: 125px;
+    width: 1400px;
+    border-bottom: 2px #71246b dashed;
+}
+
+.time li {
+    position: relative;
+    float: left;
+    font-family: 'icomoon';
+    width: 170px;
+    z-index: 1;
+    color: #666;
+}
+
+.time li h3 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+    color: #71246b;
+}
+
+.time li span {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+.time li p {
+    text-align: center;
+}
+
+.time li:nth-child(even) {
+    margin-top: 25px;
+
+}
+
+.time li:nth-child(odd) {
+    margin-top: 100px;
+
+}
+
+.communication {
+    margin-top: 100px;
+}
+
+#banner {
+    position: relative;
+    font-family: 'icomoon';
+    color: rgba(153, 102, 153, 0.5);
+    margin-left: 200px;
+    width: 800px;
+    height: 600px;
+    font-size: 40px;
+}
+
+#banner span:hover {
+    cursor: pointer;
+}
+
+#banner li {
+    float: left;
+    position: absolute;
+    left: 0px;
+    transition-duration: 0.4s;
+}
+
+#banner div {
+    position: absolute;
+    margin-left: 160px;
+    width: 50px;
+    height: 10px;
+    left: 150px;
+    top: 450px;
+    background-color: #666;
+}
