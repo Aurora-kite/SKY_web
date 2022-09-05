@@ -3,7 +3,7 @@ from . import views#从本集导入views
 
 app_name = 'myauth'
 urlpatterns = [
-    path('',views.主页,name='主页' ),
-    path('login/',views.登录,name='登录' ),
-    path('logout/',views.登出,name='登出' ),
+    path('',views.home,name='home' ),
+    path('login/',views.signin,name='signin' ),
+    path('logout/',views.signout,name='signout' ),
 ]
